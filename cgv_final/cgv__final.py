@@ -15,11 +15,9 @@ cap.set(4, frameHeight)
 MIN_MATCH = 5
 
 # ORB 검출기 생성
-
 detector = cv2.ORB_create(1000)
 
 # Flann 추출기 생성
-
 FLANN_INDEX_LSH = 6
 
 index_params= dict(algorithm = FLANN_INDEX_LSH,
