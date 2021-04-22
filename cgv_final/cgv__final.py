@@ -108,6 +108,7 @@ def stackImages(scale, imgArray):
         ver = hor
     return ver
 
+  
 # 이 부분이 도형 컨투어, 정보를 나타내는 부분입니다
 def getContours(img):
     Area = 1000
